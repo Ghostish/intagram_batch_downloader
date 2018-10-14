@@ -12,8 +12,8 @@ A python script which allows you to download all the photos and video from an in
 
 + -t download_type  
     A short string which indicates the download_type.   
-    Should be one of 'video', 'photo' and 'both' (case insensitive)  
-    The default value is 'both'.
+    Should be one of 'VIDEO', 'PHOTO' and 'BOTH' (case insensitive)  
+    The default value is 'BOTH'.
 
 + -m max_page_count:  
     The maximum number of pages that you want to download.  
@@ -29,7 +29,7 @@ A python script which allows you to download all the photos and video from an in
     Stop the program automatically when seeing an already downloaded file the first time.
 ## examples:
 ```python
-python3 go_spider.py -u nasa -m 5 -t video
+python3 go_spider.py -u nasa -m 5 -t VIDEO
 ```
 
 ```python

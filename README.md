@@ -12,7 +12,7 @@ A python script which allows you to download all the photos and video from an in
 
 + -t download_type  
     A short string which indicates the download_type.   
-    Should be one of 'VIDEO', 'PHOTO' and 'BOTH' (case insensitive)  
+    Should be one of 'VIDEO', 'PHOTO' and 'BOTH' (case sensitive)  
     The default value is 'BOTH'.
 
 + -m max_page_count:  
